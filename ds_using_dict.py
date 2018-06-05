@@ -7,7 +7,7 @@ ab = {
     'Dewi' : 'dewilaras@merbabu.com'
     }
 
-print("Agus's address is", ab['Agus']) #Agus haruf A kapital
+print("Agus's address is", ab['Agus']) #Agus harus A kapital
 
 # Deleting a key-value pair
 
