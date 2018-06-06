@@ -47,7 +47,7 @@ if not os.path.exists(today): # 'exists' ya, bukan 'exist' :)
 
 # 5. We use the zip command to put the files in a zip archive
 
-zip_command = 'zip -r {0} {1}'.format(target,' '.join(source))
+zip_command = 'zip -r -v {0} {1}'.format(target,' '.join(source))
 
 # Run the backup
 
