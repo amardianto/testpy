@@ -34,7 +34,7 @@ now = time.strftime('%H%M%S')
 target = today + os.sep + now + '.zip'
 
 # Create the subdirectory if it isn't already there
-if not os.path.exist(today):
+if not os.path.exists(today): # 'exists' ya, bukan 'exist' :)
     os.mkdir(today)
     print('Successfully created directory')
 
